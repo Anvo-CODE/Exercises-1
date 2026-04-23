@@ -1,0 +1,23 @@
+using System.Security.Cryptography.X509Certificates;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.Write("Nhap ki tu:");
+            String input = Console.ReadLine();
+            if (!string.IsNullOrEmpty(input))
+            {
+                char character = input[0];
+                int asciiValue = (int)character;
+                Console.WriteLine("Ma ASCII cua ki tu '{0}' la: {1}", character, asciiValue);
+            }
+            else
+            {
+                                Console.WriteLine("Ban chua nhap ki tu.");
+            }
+        }
+    }
+}
