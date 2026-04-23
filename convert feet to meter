@@ -1,0 +1,14 @@
+namespace ConsoleApp4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("nhap so feet");
+            float feet= float.Parse(Console.ReadLine());
+            Console.WriteLine("so met la: "+feet*0.3048);
+
+
+        }
+    }
+}
