@@ -1,0 +1,11 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("nhap ban kinh hinh tron: ");
+        float r = float.Parse(Console.ReadLine());
+        Console.WriteLine("dien tich hinh tron: " +(Math.PI *r*r));
+    }
+}
+
