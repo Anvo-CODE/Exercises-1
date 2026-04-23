@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+        Console.WriteLine("Kích thước của int: " + sizeof(int) + " byte");
+        Console.WriteLine("Kích thước của float: " + sizeof(float) + " byte");
+        Console.WriteLine("Kích thước của double: " + sizeof(double) + " byte");
+        Console.WriteLine("Kích thước của char: " + sizeof(char) + " byte");
+        Console.WriteLine("Kích thước của bool: " + sizeof(bool) + " byte");
+    }
+}
