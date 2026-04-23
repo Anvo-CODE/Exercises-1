@@ -1,0 +1,11 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        Console.Write("nhap do dai canh: ");
+        float a = float.Parse(Console.ReadLine());
+        Console.WriteLine("dien tich hinh vuong : " + (a * a));
+    }
+}
+
