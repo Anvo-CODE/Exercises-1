@@ -1,0 +1,18 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+        Console.Write("Nhập số ngày: ");
+        int ngày = int.Parse(Console.ReadLine());
+        int năm = ngày / 365;
+        int ngày_còn_lại = ngày % 365;
+        int tuần = ngày_còn_lại / 7;
+        int ngày_dư = ngày_còn_lại % 7;
+        Console.WriteLine($"Số năm: {năm}, Số tuần: {tuần}, Số ngày dư: {ngày_dư}");
+    }
+}
+
+
